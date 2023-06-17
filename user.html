@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head >
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title>User</title>
+</head>
+<body>
+    <div class="topnav">
+        <a class="active" href="#home">Home</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+        <a href="#about">About</a>
+        <h3>Covid Vaccination</h3>
+      </div>
+      <br>
+    <div class="container">
+    <h1 class="label">User Login</h1>
+    <form class="login_form" action="slot.html" method="post" name="form" onsubmit="return validated()">
+        <div class="font">Phone</div>
+        <input autocomplete="off" type="text" name="phone">
+        <div id="phone_error">Please fill up your Phone</div>
+        <div class="font font2">Password</div>
+        <input type="password" name="password">
+        <div id="pass_error">Please fill up your Password</div>
+        <button type="submit">Login</button>
+        <a href="signup.html">Register</a>
+    </form>
+    </div>
+    <script src="valid.js"></script>
+</body>
+</html> 
